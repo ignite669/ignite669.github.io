@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>方hz的博客</title>
+    <link>http://example.org/</link>
+    <description>Recent content on 方hz的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-hans</language>
+    <lastBuildDate>Wed, 20 May 2020 22:32:33 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>如何使用hugo搭建个人博客</title>
+      <link>http://example.org/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Wed, 20 May 2020 22:32:33 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description> 第一步安装Hugo MAC安装方式
+ brew install hugo hugo version  Windows 安装方式  去https://github.com/gohugoio/hugo/releases 页面下载hugo_0.71.0_Windows-64bit.zip 解压，把hugo.exe 放到D:\software\hugo 把D:\software\hugo 添加到PATH 重启终端，运行hugo version查看版本  快速搭建博客  https://gohugo.io/getting-started/quick-start/ 从step2开始 hugo new site 用户名.github.io-creator 进入 cd 用户名.github.io-creator/或者推荐用 code ignite669.github.io-creator/ 从Github下载主题并将其添加到您网站的theme目录中：   git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke  将主题添加到站点配置中： echo &amp;lsquo;theme = &amp;ldquo;ananke&amp;rdquo;&amp;rsquo; &amp;raquo; config.toml hugo new posts/如何使用Hugo搭建个人博客.md  修改 draft: true为draft: false   启动服务 hugo server -D   </description>
+    </item>
+    
+  </channel>
+</rss>
